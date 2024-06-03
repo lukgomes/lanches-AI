@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8dc;
+}
+
+header {
+    background-color: #ffcc00;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #d32f2f;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#menu {
+    text-align: center;
+}
+
+#menu h2, #sobre h2, #contato h2 {
+    color: #d32f2f;
+}
+
+.card {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid #d32f2f;
+    border-radius: 10px;
+    background-color: #fff3e0;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;  /* Largura padrão */
+    height: 150px; /* Altura padrão */
+    border-radius: 10px;
+    object-fit: cover; /* Ajuste a imagem para cobrir o espaço disponível */
+}
+
+.card h3 {
+    color: #d32f2f;
+}
+
+.card p {
+    color: #444;
+    font-size: 18px;
+}
+
+.card button {
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #b71c1c;
+}
+
+footer {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #d32f2f;
+}
